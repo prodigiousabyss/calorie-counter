@@ -1,4 +1,4 @@
-import search from '../../assets/svg/search.svg'
+import { Icon } from '../../atoms/icon/icons'
 
 export const Topbar = () => {
     return (
@@ -16,7 +16,7 @@ export const Topbar = () => {
                     className="w-[19rem] rounded-md pl-2 p-2"
                 />
                 <button className="px-2">
-                    <img src={search} alt="search" />
+                    <Icon name="search" />
                 </button>
             </div>
         </div>

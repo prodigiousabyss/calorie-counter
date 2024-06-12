@@ -7,7 +7,7 @@ import { Scanner } from './pages/Scanner/Scanner'
 function App() {
     return (
         <div className="flex flex-col h-screen">
-            <div className="grow overflow-auto">
+            <div className="flex-grow overflow-auto">
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/profile" element={<Profile />} />
